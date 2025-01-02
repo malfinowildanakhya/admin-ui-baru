@@ -7,7 +7,7 @@ import { useContext, useState } from "react";
 import CustomizedSnackbars from "../Elements/SnackBar";
 import { jwtDecode } from 'jwt-decode';
 import { useNavigate } from 'react-router-dom';
-import { AuthContext } from "../../context/AuthContext";
+import { AuthContext } from "../../context/authContext";
 
 const FormSignIn = () => {
   const [ msg, setMsg] = useState("");

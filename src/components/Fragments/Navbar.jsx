@@ -4,7 +4,7 @@ import Logo from "../Elements/Logo";
 import { useContext } from "react";
 import { ThemeContext } from "../../context/themeContext";
 import axios from "axios";
-import { AuthContext } from "../../context/AuthContext";
+import { AuthContext } from "../../context/authContext";
 
 const Navbar = () => {
   const themes = [

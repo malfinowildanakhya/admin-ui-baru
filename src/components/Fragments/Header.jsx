@@ -2,7 +2,7 @@ import Input from "../Elements/LabeledInput/Input";
 import NotificationsIcon from "@mui/icons-material/Notifications";
 import { useContext } from "react";
 import { ThemeContext } from "../../context/themeContext";
-import { AuthContext } from "../../context/AuthContext";
+import { AuthContext } from "../../context/authContext";
 
 const Header = () => {
   const {theme} = useContext(ThemeContext);

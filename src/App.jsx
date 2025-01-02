@@ -8,7 +8,7 @@ import BalancePage from "./pages/balance";
 import GoalPage from "./pages/goal";
 import ExpensePage from "./pages/expense";
 import { useContext } from "react";
-import { AuthContext } from "./context/AuthContext";
+import { AuthContext } from "./context/authContext";
 
 const App = () => {
   const { isLoggedIn } = useContext(AuthContext);
